@@ -1,0 +1,21 @@
+CREATE TABLE Registration
+First_Name VARCHAR2(20) NOT NULL,
+Last_Name VARCHAR2(20) NOT NULL,
+Address VARCHAR2(40), 
+Telephone VARCHAR2(12),
+Work_Phone VARCHAR2(12),
+Email_Address VARCHAR2(40),
+User_Name VARCHAR2(10),
+Password VARCHAR2(10),
+Verify_Password VARCHAR2(10),
+
+  
+  
+INSERT INTO Registration
+VALUES ( 'MORALES', 'BONITA', 'P.O. BOX 651 EASTPOINT FL 32328', '98346785876', '6788909000', 'bm225@sat.net','mbonita','mor','mor');
+INSERT INTO Registration
+VALUES ( 'THOMPSON', 'RYAN', 'P.O. BOX 9835 SANTA MONICA CA 90404', NULL, NULL, NULL, 'tryan','ryn','ryn');
+INSERT INTO CUSTOMERS 
+VALUES ( 'SMITH', 'LEILA', 'P.O. BOX 66 TALLAHASSEE FL 32306', NULL, NULL, NULL, 'sleila','lei','lei'); 
+INSERT INTO CUSTOMERS 
+VALUES ( 'PIERSON', 'THOMAS', '69821 SOUTH AVENUE BO 83707', NULL, NULL, 'tpier55@sat.net','pthomas','tho','tho'); 
